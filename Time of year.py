@@ -1,3 +1,6 @@
+
+'''In order to find out what time of the year it is necessary to take the number of the month or its name'''
+
 month = input("Enter the month:").title()
 if month in("December", "January", "February", "12", "01", "02"):
     print("Winter")
